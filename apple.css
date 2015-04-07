@@ -1,0 +1,221 @@
+header, body {
+    background-color: #fff;
+    color: #333;
+    font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 18px;
+    
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+
+/* ------------ PRIMARY NAVIGATION---------------- */
+
+nav.primary {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    height: 2.55556em;
+    line-height: 2.5em;
+}
+
+nav.secondary {
+    height: 165px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.primary a:hover {
+    color: #9C969D;
+}
+
+.primary a:active {
+    color: #9C969D;
+}
+.primary li {
+    padding: 0 35px;
+}
+li {
+  display: inline-block;
+  padding-left: 10px;
+}
+ul {
+  width: 100%;
+}
+
+/* ------------ SECONDARY NAVIGATION---------------- */
+
+.secondary li:nth-child(1) {
+    background-image: url("http://images.apple.com/iphone/home/images/productbrowser/icon_iphone_6.png");
+    background-repeat: no-repeat;
+    height: 165px;
+    background-position: top;
+    line-height: 14em;
+}
+.secondary li:nth-child(2) {
+    background-image: url("http://images.apple.com/iphone/home/images/productbrowser/iphone_accessories.png");
+    background-repeat: no-repeat;
+    height: 165px;
+    background-position: top;
+    line-height: 14em;
+}
+
+.secondary li:nth-child(3) {
+    background-image: url("http://images.apple.com/iphone/home/images/productbrowser/compare.png");
+    background-repeat: no-repeat;
+    height: 165px;
+    background-position: top;
+    line-height: 14em;
+}
+
+.secondary li:nth-child(4) {
+    background-image: url("http://images.apple.com/iphone/home/images/productbrowser/ios.png");
+    background-repeat: no-repeat;
+    height: 165px;
+    background-position: top;
+    line-height: 14em;
+}
+
+.secondary li:nth-child(5) {
+    background-image: url("http://images.apple.com/iphone/home/images/productbrowser/icloud.png");
+    background-repeat: no-repeat;
+    height: 165px;
+    background-position: top;
+    line-height: 14em;
+}
+
+
+/* ------------ HEADER ---------------- */
+
+header {
+    text-align: center;
+    height: 678px;
+    background-image: url("http://images.apple.com/v/iphone/home/m/images/iphone_tab_cotter_large.jpg");
+    background-repeat: no-repeat;
+
+}
+
+
+.headerMainWrapper {
+    line-height: 471px;
+    height: 471px;
+}
+    
+.headerMain {
+    line-height: 3.5em;
+    width: 100%;
+    display: inline-block
+}
+
+
+.promo {
+    height: 280px;
+}
+
+.promo li:nth-child(1) {
+    background-image: url("http://images.apple.com/iphone/home/images/promos/promo_tile_applepay_large.jpg");
+    display:inline-block;
+    height: 280px;
+    width: 32%;
+    background-position: center;
+}
+.promo li:nth-child(2) {
+    background-image: url("http://images.apple.com/iphone/home/images/promos/promo_tile_ios8_large.jpg");
+    display:inline-block;
+    height: 280px;
+    width: 33%;
+    background-position: center;
+}
+.promo li:nth-child(3) {
+    background-image: url("http://images.apple.com/iphone/home/images/promos/promo_tile_researchkit_large.jpg");
+    display:inline-block;
+    height: 280px;
+    width: 30.8%;
+    background-position: center;
+}
+
+
+
+
+.applecare {
+    background-image: url("http://images.apple.com/iphone/home/images/promos/promo_support_large.jpg");
+    height: 458px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: auto;
+    width: 50%;
+    background-position: bottom center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.wireless {
+    background-image: url("http://images.apple.com/iphone/home/images/promos/promo_iphone_business_large.png");
+    height: 458px;
+    margin: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 49%;
+    background-position: bottom center;
+    text-align: center;
+    padding-top: 50px;
+    vertical-align: top;
+}
+.strip {
+    width: 18%;
+    display: inline-block;
+    padding-left: 23em;
+    padding-top: 3em;
+}
+.stripText {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 8em;
+}
+
+.applecare h2,p {
+    line-height: 1.65em;
+}
+
+.wireless h2,p {
+    line-height: 1.65em;
+}
+
+.divider {
+    background: none repeat scroll 0 0 #d6d6d6;
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 958px;
+    width: 1px;
+    height: 411px;
+}
+
+.footerWrapper {
+    background-color: #F2F2F2;
+}
+
+.blockWrapper div {
+    display: inline-block;
+    line-height: 7.6;
+    width: 24%;
+    vertical-align: top;
+    text-align: center;
+}
+.blockWrapper {
+    width: 1230px;
+    margin: 0 auto;
+    text-align: center;
+}
